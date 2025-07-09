@@ -72,3 +72,23 @@
   border-top: 0;
   top: 16vmin;
   left: 12vmin;
+
+  #left-waggler, #right-waggler {
+  position: absolute;
+  width: 4vmin;
+  height: 4vmin;
+  border: 0.5vmin solid black;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top: 0;
+
+  #left-waggler {
+  top: 22vmin;
+  left: 6vmin;
+  transform: rotate(-45deg)
+}
+#right-waggler{
+  top: 22vmin;
+  left: 18vmin;
+  transform: rotate(45deg)
+}
